@@ -57,7 +57,7 @@ cp -r ~/.config/lxterminal ~/.local/share/MacOSBigSurThemeConverter/.config_back
 cp -r ~/.config/pcmanfm ~/.local/share/MacOSBigSurThemeConverter/.config_backup
 
 #Copying All converter files to ~/.local/share/MacOSBigSurThemeConverter Directory
-cp -r ~/MacOSBigSurThemeConverter/* ~/.local/share/MacOSBigSurThemeConverter || error "Unable to copy converter files to ~/.local/share/MacOSBigSurThemeConverter"
+cp -r ~/MacOSThemePi/* ~/.local/share/MacOSBigSurThemeConverter || error "Unable to copy converter files to ~/.local/share/MacOSBigSurThemeConverter"
 
 #Updating apt Packages
 sudo apt update || error "Failed to update apt packages"
