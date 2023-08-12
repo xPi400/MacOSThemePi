@@ -1,13 +1,13 @@
-# MacOSBigSurThemeConverter
+# Mac OS Theme Pi
 
 ![screenshot](https://raw.githubusercontent.com/techcoder20/MacOSBigSurThemeConverter/main/Screenshots/MacOSBigSurLightScreenshot.png)
 
-**This is a bash script that will make your plain Raspberry Pi OS LXDE desktop look similar to MacOSBigSur**  
+**This is a bash script that will make your plain RPi LXDE desktop look similar to Mac OS Big Sur**  
   
 ## Installation
 Run These Commands To Run The Installer:  
 ```
-git clone https://github.com/techcoder20/MacOSBigSurThemeConverter.git ~/MacOSBigSurThemeConverter
+git clone https://github.com/xPi400/MacOSThemePi.git ~/MacOSBigSurThemeConverter
 ~/MacOSBigSurThemeConverter/install.sh
 ```
 **OR**  
@@ -41,7 +41,7 @@ To run in a terminal: themeconverter
 ![screenshot](https://raw.githubusercontent.com/techcoder20/MacOSBigSurThemeConverter/main/Screenshots/MacOSBigSurThemeConverterGUI.png)
 
 ## Lightpad
-[LightPad](https://github.com/libredeb/lightpad) is a lightweight, simple and powerful application launcher. It is an alternative to launchpad in MacOSBigSur   
+[LightPad](https://github.com/libredeb/lightpad) is a lightweight, simple, and powerful application launcher. It is an alternative to the launchpad in MacOSBigSur   
 
 <img src="https://raw.githubusercontent.com/techcoder20/MacOSBigSurThemeConverter/main/Screenshots/Lightpad.gif">
 
@@ -51,13 +51,13 @@ To run in a terminal: themeconverter
 <img src="https://raw.githubusercontent.com/techcoder20/MacOSBigSurThemeConverter/main/Screenshots/Ulauncher.gif">
 
 ## PantherLauncher
-[Panther Launcher](https://github.com/phoenixbyrd/panther_launcher) is the application menu which is similar to the one in MacOSBigSur.
+[Panther Launcher](https://github.com/phoenixbyrd/panther_launcher) is the application menu that is similar to the one in MacOSBigSur.
 
 <img src="https://raw.githubusercontent.com/techcoder20/MacOSBigSurThemeConverter/main/Screenshots/PantherLauncher.gif">
 
 ## To Do
 - [X] Make A Gui For Theme Converter
-- [X] Create a website with github pages
+- [X] Create a website with GitHub pages
 - [X] Add Light And Dark Theme
 - [X] Add Xfce4-panel
 - [X] Add Ulaucnher
@@ -88,7 +88,7 @@ Find the icons at https://github.com/yeyushengfan258/BigSur-icon-theme.git
 
 Find the cursors at https://github.com/Macintosh98/BigSur-Originals-Cursor.git   
 
-**Plank theme and wallpaper make by FKORPSVART**  
+**Plank theme and wallpaper made by FKORPSVART**  
 
 Find the plank theme and wallpapers at https://www.pling.com/p/1399398/
 
