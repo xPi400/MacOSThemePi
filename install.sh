@@ -22,7 +22,7 @@ echo -e  "${BLUE}Icons made by yeyushengfan258 "
 echo -e  "${BLUE}Find the icons at https://github.com/yeyushengfan258/BigSur-icon-theme.git${NC} "
 echo -e  "${GREEN}Cursors and plank theme made by Macintosh98 "
 echo -e  "${GREEN}Find the cursors at https://github.com/BigSur-Originals-Cursor.git${NC} "
-echo -e  "${AQUA}Plank theme and wallpaper make by FKORPSVART"
+echo -e  "${AQUA}Plank theme and wallpaper made by FKORPSVART"
 echo -e  "${AQUA}Find the plank theme and wallpapers at https://www.pling.com/p/1399398/${NC} "
 echo ""
 read -n 1 -s -r -p "Press any key to continue"
@@ -174,23 +174,6 @@ else
     NoDisplay=false" > ~/.config/autostart/pi-apps-updater.desktop
 fi
 
-#Setting Up Network Manager
-sudo apt -y install network-manager network-manager-gnome 
-
-sudo systemctl enable network-manager &>/dev/null
-
-sudo sed -i '/denyinterfaces wlan0/c\ ' /etc/dhcpcd.conf 
-echo "denyinterfaces wlan0" | sudo tee -a /etc/dhcpcd.conf &>/dev/null
-
-sudo sed -i '/[main]/,/managed=true/d' /etc/NetworkManager/NetworkManager.conf 
-echo '''
-[main]
-plugins=ifupdown,keyfile
-dhcp=internal
-
-[ifupdown]
-managed=true''' | sudo tee -a /etc/NetworkManager/NetworkManager.conf &>/dev/null
-
 #Copying MacOSBigSurThemeConverterAutostart to ~/.config/autostart
 mkdir ~/.config/autostart &>/dev/null
 
@@ -242,7 +225,7 @@ Name=panther_launcher
 Icon=start-here" >> ~/.local/share/applications/panther_launcher.desktop
 
 #Changing Chromium Icon
-sudo sed -i '/Icon/c\Icon=dillo' /usr/share/applications/chromium-browser.desktop
+sudo sed -i '/Icon/c\Icon=Chromium' /usr/share/applications/chromium-browser.desktop
 
 #Copying All Required Icons
 cp -r ~/.local/share/MacOSBigSurThemeConverter/assets/Icons/* ~/.local/share/icons/
